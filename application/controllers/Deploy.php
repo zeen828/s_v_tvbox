@@ -30,7 +30,7 @@ class Deploy extends CI_Controller {
 				if ($payload ['ref'] == 'refs/heads/master') {
 					$command = sprintf ( '/usr/bin/git -C %s pull 2>&1', $data_config ['path'] );
 					exec ( $command, $output, $status );
-					$this->data_result ['message'] = sprintf ( '執行git指令:[%s],執行解果:%s', $command, $status, json_encode($output) );
+					$this->data_result ['message'] = sprintf ( '執行git指令:[%s],執行解果:%s', $command, $status, js );
 				} else {
 					$this->data_result ['message'] = sprintf ( '執行git指令失敗ref值錯誤:[%s]', $payload ['ref'] );
 				}
@@ -41,7 +41,7 @@ class Deploy extends CI_Controller {
 			$this->benchmark->mark ( 'code_end' );
 			// 標記時間計算
 			$this->data_result ['time'] = $this->benchmark->elapsed_time ( 'code_start', 'code_end' );
-			return $this->output->set_content_type ( 'application/json' )->set_output ( json_encode ( $this->data_result ) );
+			return $this->output->set_content_type ( 'application/json' )->set_output ( json_encode ( $this->data_result, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT ) );
 		} catch ( Exception $e ) {
 			show_error ( $e->getMessage () . ' --- ' . $e->getTraceAsString () );
 		}
