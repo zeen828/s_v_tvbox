@@ -39,6 +39,7 @@ $config['mongo_db']['default']['write_concerns'] = (int)1;
 $config['mongo_db']['default']['journal'] = TRUE;
 $config['mongo_db']['default']['read_preference'] = NULL;
 $config['mongo_db']['default']['read_preference_tags'] = NULL;
+$config['mongo_db']['default']['replica'] = '';
 
 $config['mongo_db']['user']['no_auth'] = FALSE;
 $config['mongo_db']['user']['hostname'] = 'localhost';
@@ -52,6 +53,7 @@ $config['mongo_db']['user']['write_concerns'] = (int)1;
 $config['mongo_db']['user']['journal'] = TRUE;
 $config['mongo_db']['user']['read_preference'] = NULL;
 $config['mongo_db']['user']['read_preference_tags'] = NULL;
+$config['mongo_db']['user']['replica'] = '';
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */
