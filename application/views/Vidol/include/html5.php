@@ -1082,7 +1082,7 @@ window.gon={};gon.watchLater_add="\u5df2\u52a0\u5165\u300c\u7a0d\u5f8c\u89c0\u77
 	</div>
 
 	<script
-		src="/assets/home-79505c9290c39cff21b14bf17831fcff9ad9fa2e6b5b78c8ee2f5bb04aa77bba.js"></script>
+		src="/assets/js/Vidol/home.js"></script>
 
 </body>
 </html>
