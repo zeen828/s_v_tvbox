@@ -32,7 +32,7 @@
 <meta name="google-play-app" content="app-id=com.set.settv.vidol" />
 <meta itemprop="keywords" content="Vidol,影音,視頻,直播,三立,華劇,三立都會台,三立台灣台,國光幫幫忙,愛玩客,綜藝大熱門,綜藝玩很大,型男大主廚,完全娛樂" />
 <!-- Styles -->
-<link rel="stylesheet" media="all" href="/assets/home-5045362d1d0c8da6a0a04c54e897fa409093310535d0c58fca26426ed4fffcd4.css" />
+<link rel="stylesheet" media="all" href="/assets/css/Vidol/home.css" />
 <!-- Fonts -->
 <!-- Analytics -->
 <!-- Google Analytics -->
