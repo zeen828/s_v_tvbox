@@ -23,6 +23,7 @@ class Homes extends CI_Controller {
 		//$this->load->helper('url');
 
 		//$this->load->view('welcome_message');
-		show_404();
+		//show_404();
+		echo 'vidol首頁';
 	}
 }
