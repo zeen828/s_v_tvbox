@@ -56,7 +56,7 @@ local.properties
 #CodeIgniter RESTful
 application/config/development
 application/config/production
-application/logs/log-*.php
+application/logs/*
 !application/logs/index.html
 application/cache/*
 !application/cache/index.html
