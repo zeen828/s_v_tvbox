@@ -2,6 +2,7 @@
 $lang['system_default'] = '系統預設碼';
 $lang['system_success'] = '成功';
 $lang['system_error'] = '錯誤';
+$lang['system_time_out'] = '操作超時';
 
 $lang['database_error'] = '資料庫錯誤';
 $lang['database_stored_procedure_error'] = 'stored procedure錯誤';

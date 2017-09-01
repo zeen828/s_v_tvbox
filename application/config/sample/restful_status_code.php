@@ -4,6 +4,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $config['system_default'] = 'S0000000';
 $config['system_success'] = 'S0000200';
 $config['system_error'] = 'S0000404';
+$config['system_time_out'] = 'S0000408';
 
 $config['database_error'] = 'D0100001';
 $config['database_stored_procedure_error'] = 'D0100002';
